@@ -1,0 +1,187 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    .container {
+        margin: 0 auto;
+        max-width: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .email {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    header {
+        background-color: Black;
+        padding: 1rem 0;
+        width: 100%;
+    }
+    
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        color: white;
+    }
+    
+    main {
+        margin: auto;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .bg-img {
+        position: relative;
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bg-img img {
+        height: auto;
+        width: 100%;
+    }
+    
+    aside {
+        width: 100%;
+        background-color: #fdd5fd;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* position: relative; */
+    }
+    
+    .text-wrapper {
+        position: relative;
+        top: -2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        background-color: white;
+        text-align: center;
+        padding: 0.5rem;
+    }
+    
+    .text-wrapper h2 {
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 0.125rem;
+        margin: 0.75rem 0;
+    }
+    
+    .text-wrapper h3 {
+        text-transform: capitalize;
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin: 0.75rem 0;
+    }
+    
+    .text-wrapper p {
+        color: black;
+        text-align: center;
+        font-size: 0.75rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0.75rem 0;
+    }
+    
+    .text-wrapper a {
+        margin: 0.75rem 0;
+        width: 60%;
+    }
+    
+    .text-wrapper>a>button {
+        width: 100%;
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.125rem;
+        text-transform: uppercase;
+        padding: 0.3525rem 0;
+        color: white;
+        background-color: black;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .cta {
+        width: 80%;
+        text-align: center;
+    }
+    
+    .cta p {
+        font-size: 0.75rem;
+        margin: 1rem 0;
+        color: rgb(100, 115, 131)
+    }
+    
+    footer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #fdd5fd;
+    }
+    
+    .logo-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo img {
+        height: 1.25rem;
+        width: 1.25rem;
+        margin: 0 0.5rem;
+        cursor: pointer;
+    }
+    
+    .whitespace {
+        height: 0.125rem;
+        width: 60%;
+        background-color: white;
+        margin: 1rem 0;
+    }
+    
+    .copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .copyright p {
+        margin: 0.5rem;
+        font-size: 0.5rem;
+        color: rgb(100, 115, 131)
+    }
